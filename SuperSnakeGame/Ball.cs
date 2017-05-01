@@ -100,7 +100,7 @@ namespace BrickBreaker
             // Collision with top wall
             if (y <= 2)
             {
-                ySpeed *= -1;
+                ySpeed = Math.Abs(ySpeed);
             }
         }
 
